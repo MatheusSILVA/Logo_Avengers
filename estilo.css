@@ -1,0 +1,71 @@
+body{
+	background: #000;
+}
+
+.container{
+	height: auto;
+	width: 700px;
+	margin: auto;
+	position: relative;
+}
+
+.circulo{
+	height: 600px;
+	width: 600px;
+	border: 50px solid #fff;
+	border-radius: 50%;
+	position: absolute;
+	z-index: 10;
+	top: 70px;
+}
+
+.ponto1{
+	height: 700px;
+	width: 100px;
+	background: #fff;
+	position: absolute;
+	left: 200px;
+	z-index: 20px;
+	transform: skew(-25deg);
+}
+
+.ponto2{
+	height: 630px;
+	width: 100px;
+	background: white;
+	position: absolute;
+	left: 400px;
+	z-index: 30px;
+}
+
+.ponto3{
+	height: 100px;
+	width: 190px;
+	background: #fff;
+	position: absolute;
+	left: 210px;
+	top: 450px;
+	z-index: 49px;
+}
+
+.barra_preta{
+	height: 20px;
+	width: 100px;
+	background: #000;
+	position: absolute;
+	left: 22px;
+	top: 590px;
+	transform: rotate(-65deg);
+	z-index: 50;
+}
+
+.barra_preta1{
+	height: 20px;
+	width: 100px;
+	background: #000;
+	position: absolute;
+	left: 107px;
+	top: 670px;
+	transform: rotate(-65deg);
+	z-index: 50;
+}
